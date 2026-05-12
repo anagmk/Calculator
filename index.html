@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="calculator-shell" aria-label="Calculator">
+    <section class="calculator" aria-label="Calculator interface">
+      <div class="display" aria-label="Calculator display">
+        <div class="display-history" value=""></div>
+        <div class="display-result" value=""></div>
+      </div>
+
+      <div class="keypad" aria-label="Calculator keypad">
+        <button class="key function clear" value="" type="button">AC</button>
+        <!-- <button class="key function" value="+/-" type="button">+/-</button> -->
+        <button class="key function" value="%" type="button">%</button>
+        <button class="key operator" value="/" type="button">/</button>
+
+        <button class="key" value="7" type="button">7</button>
+        <button class="key" value="8" type="button">8</button>
+        <button class="key" value="9" type="button">9</button>
+        <button class="key operator" value="*" type="button">x</button>
+
+        <button class="key" value="4" type="button">4</button>
+        <button class="key" value="5" type="button">5</button>
+        <button class="key" value="6" type="button">6</button>
+        <button class="key operator" value="-" type="button">-</button>
+
+        <button class="key" value="1" type="button">1</button>
+        <button class="key" value="2" type="button">2</button>
+        <button class="key" value="3" type="button">3</button>
+        <button class="key operator" value="+" type="button">+</button>
+
+        <button class="key zero" value="0" type="button">0</button>
+        <button class="key" value="." type="button">.</button>
+        <button class="key equals" value="=" type="button">=</button>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
